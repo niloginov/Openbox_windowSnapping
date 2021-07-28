@@ -1,0 +1,88 @@
+
+  <keyboard>
+    <chainquitkey>c-g</chainquitkey>
+    <!-- Full screen -->
+    <keybind key="w-s-w">
+      <action name="moveresizeto">
+        <x>center</x>
+        <y>center</y>
+        <width client="yes">100%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <!-- Iconify ,unmaximize, close -->
+    <keybind key="w-s-s">
+      <action name="iconify"/>
+    </keybind>
+    <keybind key="w-s-e">
+      <action name="unmaximize"/>
+    </keybind>
+    <keybind key="w-s-q">
+      <action name="close"/>
+    </keybind>
+    <!-- move window to other monitor -->
+    <keybind key="w-1">
+      <action name="moveresizeto">
+        <monitor>1</monitor>
+      </action>
+    </keybind>
+    <keybind key="w-2">
+      <action name="moveresizeto">
+        <monitor>2</monitor>
+      </action>
+    </keybind>
+    <!-- window takes left half -->
+    <keybind key="w-q">
+      <action name="moveresizeto">
+        <x>0</x>
+        <y>center</y>
+        <width client="yes">50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <!-- window takes left top quarter -->
+    <keybind key="w-w">
+      <action name="moveresizeto">
+        <x>0</x>
+        <y>0</y>
+        <width client="yes">50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!-- window takes left bottom quarter -->
+    <keybind key="w-s">
+      <action name="moveresizeto">
+        <x>0</x>
+        <y>-0</y>
+        <width client="yes">50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!-- window takes right half -->
+    <keybind key="w-r">
+      <action name="moveresizeto">
+        <x>-0</x>
+        <y>center</y>
+        <width client="yes">50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <!-- window takes right top  quarter -->
+    <keybind key="w-e">
+      <action name="moveresizeto">
+        <x>-0</x>
+        <y>0</y>
+        <width client="yes">50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!-- window takes right bottom quarter -->
+    <keybind key="w-d">
+      <action name="moveresizeto">
+        <x>-0</x>
+        <y>-0</y>
+        <width client="yes">50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+ </keyboard>
